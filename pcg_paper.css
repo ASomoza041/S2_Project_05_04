@@ -16,6 +16,7 @@
 
 
 /* html styles */
+/* The code below holds style rules for the html element. This code adjusts the look of the background color. */
 html {
     background-color: hsl(49, 41%, 69%);
     height: 100%;
@@ -24,6 +25,7 @@ html {
 
 
 /* body styles */
+/* The code below holds style rules for the body element. This code adjusts the position and look of the body element.*/
 body {
     background-color: rgb(233, 232, 233);
     padding: 10px 2em 10px 2em;
@@ -42,6 +44,7 @@ body::after {
 
 
 /* header styles */
+/* The code below holds style rules for the header element and all elements nested inside. This code adjusts the position and look of the header elements.*/
 body header img {
     display: block;
     width: 100%;
@@ -67,34 +70,14 @@ aside h2 {
 }
 
 
-/* nav styles */
-/* nav {
-    display: block;
-    float: left;
-    width: 100%;
-} */
-
-
-/* nav ul li {
-    display: inline;
-    float: left;
-    text-align: center;
-
-} */
-
-
-/* nav ul li a {
-    text-align: center;
-} */
-
-
-
 
 /* Navbar container */
+/* The code below holds style rules for nav code. This code adjusts the position and look of the nav adn hypertext links.*/
 .navbar {
     overflow: hidden;
-    background-color: #333;
-    font-family: Arial;
+    background-color: rgb(77, 51, 25);
+    font-family: "Lucida Sans Typewriter", serif;
+    font-weight: bold;
 }
 
 /* Links inside the navbar */
@@ -108,12 +91,14 @@ aside h2 {
 }
 
 /* The dropdown container */
+/* The code below holds style rules for the links in the nav.This code adjusts the position and look of the links in the nav.*/
 .dropdown {
     float: left;
     overflow: hidden;
 }
 
 /* Dropdown button */
+/* The code below holds style rules for the dropdown button. This code adjusts the position and look of the dropdown button. */
 .dropdown .dropbtn {
     font-size: 16px;
     border: none;
@@ -122,28 +107,26 @@ aside h2 {
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
-    /* Important for vertical align on mobile phones */
     margin: 0;
-    /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
+
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(211, 166, 120);
 }
 
-/* Dropdown content (hidden by default) */
+
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: rgb(224, 191, 159);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content a {
     float: none;
     color: black;
@@ -153,12 +136,12 @@ aside h2 {
     text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
+
 .dropdown-content a:hover {
     background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -167,6 +150,7 @@ aside h2 {
 
 
 /* article styles */
+/* The code below holds style rules for the article element. This code adjusts the position and look of the article element  */
 article {
     position: relative;
     clear: both;
@@ -182,6 +166,7 @@ article#localMarathon {
 article#highway {
     width: 46%;
     display: inline-block;
+    padding-bottom: 50px;
 
 
 }
@@ -198,6 +183,7 @@ article {
 }
 
 /* p styles */
+/* The code below holds style rules for paragraph elements. This code adjusts the position and look of the paragraphs.*/
 
 p {
     clear: left;
@@ -205,6 +191,7 @@ p {
 }
 
 /* aside styles */
+/* The code below holds style rules for aside element. This code adjusts the position and look of the aside element.  */
 aside {
     display: inline;
     float: right;
@@ -219,6 +206,7 @@ aside {
 
 
 /* footer styles */
+/* The code below holds style rules for the footer element. This code adjusts the position and look of the footer */
 footer {
     clear: both;
     display: block;
@@ -228,24 +216,8 @@ footer {
 }
 
 /* hr styles */
+/* The code below holds style rules for the hr elements. It gives style rules to adjust the look of the line.  */
 
 hr {
     width: 75%;
 }
-
-
-
-
-
-
-
-
-
-/* nav ul li a {
-    display: inline;
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-} */

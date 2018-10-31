@@ -21,8 +21,10 @@
 </head>
 
 <body>
+    <!-- The body holds the main content for the page. The body holds all the stuff the user will actually be reading. -->
 
     <header><img src="pcglogo.jpg" alt="">
+        <!-- The code below is part of the body. This code is the nav. It holds many hyperlinks, som leading to different sections of the page. -->
         <div class="navbar">
             <div class="dropdown">
                 <button class="dropbtn">Home
@@ -72,16 +74,16 @@
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Complete Marathon Results</a>
+                    <a href="#localMarathon">Complete Marathon Results</a>
                     <a href="#"> National Park Acquires Land</a>
                     <a href="#">School Board Election Results</a>
                     <a href="#"> Spending Referendum Defeated</a>
-                    <a href="">Graduation Awards</a>
-                    <a href="">New Highway Proposed</a>
-                    <a href="">Camping Tips</a>
-                    <a href="">Cougar Sightings Increase</a>
-                    <a href=""> Editorials</a>
-                    <a href=""> Park City Profile</a>
+                    <a href="#">Graduation Awards</a>
+                    <a href="#highway">New Highway Proposed</a>
+                    <a href="#">Camping Tips</a>
+                    <a href="#cougar">Cougar Sightings Increase</a>
+                    <a href="#"> Editorials</a>
+                    <a href="#"> Park City Profile</a>
                 </div>
             </div>
 
@@ -99,7 +101,7 @@
             </div>
         </div>
     </header>
-
+    <!-- The Code below holds text the user wwill read. This also includes any pictures in the website. -->
     <article id="localMarathon">
         <h3>Local Woman Wins Marathon</h3>
         <hr>
@@ -117,7 +119,13 @@
         <p>This year's race through downtown Boulder boasted the largest field in the marathon's history, with over
             9500 men and 6700 women competing. Race conditions were perfect with low humidity and temperatures that
             never exceeded 85 degrees.</p>
-        <img id="blake" src="blake.jpg" alt="Laura Blake">
+        <figure>
+            <img id="blake" src="blake.jpg" alt="Laura Blake" />
+            <figcaption>(Laura Blake)</figcaption>
+        </figure>
+
+        <hr>
+
     </article>
     <article id="highway">
         <h3 id="highwayFont">Highway 7 Reopens</h3>
@@ -130,7 +138,12 @@
             Grand Lake. The
             reopening of the road is one of the annual signs that summer is near and the tourist season will soon be
             upon us!</p>
+
+        <hr>
     </article>
+
+
+
     <article id="cougar">
         <h3 id="cougarFont">Cougar Sightings Increase </h3>
         <hr>
@@ -163,8 +176,10 @@
             In case of an attack, stay on your feet and fight back aggressively.
         </p>
     </aside>
-    <footer>
 
+    <hr>
+    <footer>
+        <!-- The code below holds the adress of the business. This information makes finding the busines easier for the user. -->
         Park City Gazette &#9830; 801 Elkhart Avenue Estes &#9830; Park, CO 80511 &#9830;
         1 (800) 555-2918
 
